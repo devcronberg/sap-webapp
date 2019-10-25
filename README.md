@@ -5,9 +5,9 @@ Simple web app with
 - HTML
 - CSS
 - JS
-  - ![WASM](https://webassembly.org/)
+  - [WASM](https://webassembly.org/)
 
-WASM is created from https://webassembly.studio/ from c-source:
+WASM is created by https://webassembly.studio/ from c-source:
 
 ```c
 #define WASM_EXPORT __attribute__((visibility("default")))
