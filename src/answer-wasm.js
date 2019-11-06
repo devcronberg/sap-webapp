@@ -1,5 +1,5 @@
 let answerWASM;
-// Hent funktion fra WASM
+// Hent funktion (svaret på alt) fra WASM
 fetch("main.wasm")
   .then(response => response.arrayBuffer())
   .then(bytes => WebAssembly.instantiate(bytes))
